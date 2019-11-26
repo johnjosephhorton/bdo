@@ -11,12 +11,13 @@ The original books are:
 ![Book Titles](images/book_titles_original.png?raw=true "Book titles").
 
 ## Document Term Matrix (DTM) 
-The authors construct a document term matrix 
+The authors construct a document term matrix. 
+I reproduce using the [tm](https://cran.r-project.org/web/packages/tm/vignettes/tm.pdf) package for R and some light hand-editing to account for parser differences: 
+
 ### Original 
 ![DTM](images/dtm_original.png?raw=true "DTM").
 
 ### Reproduction 
-I reproduce using the [tm](https://cran.r-project.org/web/packages/tm/vignettes/tm.pdf) package for R and some light hand-editing to account for parser differences: 
 ![DTM](images/dtm_mine.png?raw=true "DTM")
 
 ## SVD 
@@ -26,15 +27,13 @@ I then perform a SVD of the DTM.
 ![Query example](images/query_example_original.png?raw=true "Query example (original)").
 
 ## Reproduction
-And here are some the component singular values and the u matrix: 
 ![Query example](images/query_example_mine.png?raw=true "Query example (min)").
 
 ## Plotting the location of documents and terms in 2 dimensions (Figure 4) 
+Figure 4 from the paper shows the locations of the documents and terms.
 
 ### Original
-The original figure 4 shows the locations of the documents and terms: 
 ![Figure 4](images/figure_4_original.png?raw=true "Figure 3")
 
 ### Reproduction 
-And here is my re-production: 
 ![Figure 4](figure_4.png?raw=true "Figure 3")
