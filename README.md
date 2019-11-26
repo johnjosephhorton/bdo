@@ -13,14 +13,14 @@ The code itself is in [analysis.R](analysis.R).
 The authors construct a document term matrix 
 ![DTM](images/dtm_original.png?raw=true "DTM").
 I reproduce using the [tm](https://cran.r-project.org/web/packages/tm/vignettes/tm.pdf) package for R and some light hand-editing to account for parser differences: 
-![DTM](images/dtm_mine.png?raw=true "DTM").
+![DTM](images/dtm_mine.png?raw=true "DTM")
 
 ## SVD 
-I then perform a SVD of the DTM and check it matches the original 
+I then perform a SVD of the DTM. Here is the original: 
 ![Query example](images/query_example_original.png?raw=true "Query example (original)").
 
+And here are some the component singular values and the u matrix: 
 ![Query example](images/query_example_mine.png?raw=true "Query example (min)").
-
 
 ## Plotting the location of documents and terms in 2 dimensions (Figure 4) 
 The original figure 4 shows the locations of the documents and terms: 
