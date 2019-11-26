@@ -1,0 +1,17 @@
+A Course on Integral Equations
+Attractors for Semigraphs and Evoluation Equations
+Automatic Differentiation of Algorithms: Theory, Implementation and Application
+Geometrical Aspeects for Partial Differential Equations
+Ideals, Variets and Algorithms - An Introduction to Computation Algebraice Geometry and Communicative Algebra
+Introduction to Hamiltonian Dynamical Systems and the N-Body Problem
+Knapsack Problems: Algorithms and Computed Implementations
+Methods of Solving Singular Systems of Ordinary Differential Equations
+Nonlinear Systems
+Ordinary Differential Equations 
+Oscillation Theory for Neutral Differential Equations with Delay
+Oscillation Theory of Delay Differential Equations
+Pseudodifferential Operators and Nonlinear Partial Differential Equations
+Sinc Methods for Quadrature and Differential Equations 
+Stabilitary of Stochastic Differential Equations with Respect to Semi-Martingales
+The Boundary Integral Approach to Static and Dynamic Contact Problems
+The Double Mellin-Barnes Type Integrals and Their Applications to Convolution Theory
