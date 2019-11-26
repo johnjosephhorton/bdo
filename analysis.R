@@ -100,3 +100,6 @@ g <- ggplot(data = df, aes(x = x, y = y)) + geom_point(aes(shape = type)) +
 
 print(g)
 
+png("figure_4.png")
+print(g)
+dev.off()
