@@ -85,7 +85,7 @@ df.terms$label <- rownames(X)
 df.terms$type <- "term"
 
 ## Get the book coordinates (use the DTM transposed)
-df.docs <- data.frame(t(X) %*% u[, 1:k])
+df.docs <- data.frame(t(X) %*% u[, 1:k] %*% diag(1/d[1:k]))
 colnames(df.docs) <- c("x", "y")
 df.docs$label <- paste0("B", colnames(X))
 df.docs$type <- "docs"
